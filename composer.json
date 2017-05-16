@@ -1,0 +1,35 @@
+{
+    "name": "emphp/em-debug",
+    "description": "The debugger extension for the EMPHP framework",
+    "keywords": ["EM", "debug", "debugger"],
+    "type": "em-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/emphp/em-debug/issues",
+        "forum": "http://www.emphp.com/forum/",
+        "wiki": "http://www.emphp.com/wiki/",
+        "irc": "irc://irc.freenode.net/emphp",
+        "source": "https://github.com/emphp/em-debug"
+    },
+    "authors": [
+        {
+            "name": "tan huixing",
+            "email": "service@emphp.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "emphp/em": "~1.0.0",
+        "emphp/em-bootstrap": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "em\\debug\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
